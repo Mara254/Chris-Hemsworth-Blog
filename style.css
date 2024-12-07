@@ -1,0 +1,193 @@
+/* Global Styles */
+body {
+    background: linear-gradient(to bottom, #001f3f, #001233);
+    color: #e0e6f1;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background: radial-gradient(circle, #00509e, #001233);
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 4px solid #0a84ff;
+}
+
+header img {
+    border-radius: 50%;
+    border: 5px solid #0a84ff;
+    box-shadow: 0 0 15px #0a84ff;
+    width: 150px;
+    height: 150px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 15px 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* Navigation */
+nav {
+    background: #002b55;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #0a84ff;
+}
+
+/* Content */
+.content {
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #0a84ff;
+    border-bottom: 2px solid #0a84ff;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.post {
+    background: #001b36;
+    border: 2px solid #0a84ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.post h3 {
+    color: #0a84ff;
+}
+
+.post p {
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background: #002b55;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid #0a84ff;
+}
+
+.signature {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 1.5rem;
+    color: #0a84ff;
+}
+
+/* Hover Effects */
+a:hover, button:hover {
+    text-shadow: 0 0 10px #0a84ff, 0 0 20px #0a84ff;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        font-size: 1.1rem;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .post {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 30px 15px;
+    }
+
+    header img {
+        width: 120px;
+        height: 120px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+        margin: 0 10px;
+    }
+
+    .content {
+        padding: 20px 10px;
+    }
+
+    .post {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 1rem;
+        display: block;
+        margin: 10px 0;
+    }
+
+    .content {
+        padding: 15px 10px;
+    }
+
+    .post {
+        padding: 10px;
+    }
+
+    .signature {
+        font-size: 1.2rem;
+    }
+}
